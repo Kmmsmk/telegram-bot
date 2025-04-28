@@ -1,29 +1,21 @@
-Telegram Channel Statistics Bot
-这是一个用于统计 Telegram 频道的日活跃人数和每日新增订阅者的 Python 脚本。它会自动收集多个频道的统计数据，并每日向你指定的 Telegram 频道发送一份报告。
+# Telegram 频道统计机器人 🚀
 
-功能特点
-获取 Telegram 频道的总订阅人数。
+## 📊 概述
 
-计算每日新增的订阅人数。
+**Telegram 频道统计机器人** 是一款强大的工具，用于监控和分析您的 Telegram 频道的订阅者增长和活动情况。通过该机器人，您可以轻松追踪每日订阅者数量、活跃用户数量，甚至能将自动生成的报告发送到您的 Telegram 频道。
 
-每日自动向指定的 Telegram 频道发送汇总报告。
+### 主要功能：
+- **支持多个频道**：可以同时监控和追踪多个 Telegram 频道。
+- **每日自动报告**：接收每日统计报告，包括总订阅人数和新增订阅人数。
+- **历史数据存储**：数据会被保存在 MySQL 数据库中，可以查看一周内的统计数据。
+- **活跃订阅者跟踪**：计算每日新增订阅者，并跟踪频道的增长情况。
 
-将每日数据存储在 MySQL 数据库中，最多保存一周的数据。
+---
 
-支持多个 Telegram 频道。
+## 🚀 安装与设置
 
-环境要求
-Python 3.x
+### 1. 克隆项目
 
-MySQL 数据库
-
-Telegram Bot Token
-
-项目结构
-telegram-bot/
-│
-├── bot.py             # 主机器人代码
-├── config.py          # 配置文件，包括 Token 和数据库信息
-├── database.py        # 数据库相关功能
-├── requirements.txt   # 项目依赖包
-└── README.md          # 项目文档
+```bash
+git clone https://github.com/yourusername/telegram-channel-stats-bot.git
+cd telegram-channel-stats-bot
